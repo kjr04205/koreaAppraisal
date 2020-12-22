@@ -1,0 +1,41 @@
+@font-face{
+	font-family:"kopub";
+	src:url('../fonts/KoPubWorld\ Dotum\ Light.eot');
+	src:url('../fonts/KoPubWorld\ Dotum\ Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/KoPubWorldDotumLight.woff') format('woff'),
+	url('../fonts/KoPubLight.ttf') format('truetype');
+    src:local(※), url('../font/KoPubWorldDotumLight.woff') format('woff');
+    font-weight:100;
+}
+
+@font-face{
+	font-family:"kopub";
+	src:url('../fonts/KoPubWorld\ Dotum\ Medium.eot');
+	src:url('../fonts/KoPubWorld\ Dotum\ Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/KoPubWorldDotumMedium.woff') format('woff'),
+	url('../fonts/KoPubMedium.ttf') format('truetype');
+    src:local(※), url('../font/KoPubWorldDotumMedium.woff') format('woff');
+    font-weight:400;
+}
+
+@font-face{
+	font-family:"kopub";
+	src:url('../fonts/KoPubWorld\ Dotum\ Bold.eot');
+	src:url('../fonts/KoPubWorld\ Dotum\ Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/KoPubWorldDotumBold.woff') format('woff'),
+	url('../fonts/KoPubWorldDotumBold.ttf') format('truetype');
+    src:local(※), url('../font/KoPubWorldDotumBold.woff') format('woff');
+    font-weight:700;
+}
+
+
+/*영문*/
+@font-face{
+	font-family:"nexon";
+	src:url('../fonts/NEXON\ Lv1\ Gothic\ OTF\ Bold.eot');
+	src:url('../fonts/NEXON\ Lv1\ Gothic\ OTF\ Bold.woff') format('embedded-opentype'),
+	url('../fonts/NEXON\ Lv1\ Gothic\ OTF\ Bold.woff') format('woff'),
+	url('../fonts/NEXON\ Lv1\ Gothic\ OTF\ Bold.eot') format('truetype');
+    src:local(※), url('../fonts/NEXON\ Lv1\ Gothic\ OTF\ Bold.woff') format('woff');
+    font-weight:700;
+}

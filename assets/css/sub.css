@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* 빈집플랫폼 소개 공통 */
+.introduction{max-width: 1260px; margin: 0 auto;}
+.introduction dl{font-size:0; margin-bottom: 80px;}
+.introduction dl dt,
+.introduction dl dd{display:inline-block;}
+
+/* 빈집플랫폼 소개 */
+.introduction__main{border-bottom: 1px solid black;}
+.introduction__main dl dt{width: 260px; vertical-align: top;}
+.introduction__main dl dt h3{font-size: 32px; line-height: 1.25; letter-spacing: -0.32px; color: #010101; text-align: left; margin-bottom: 28px;}
+.introduction__main dl dd{width: calc(100% - 260px);}
+.introduction__main dl dd ul li{font-size: 18.5px; line-height: 1.62; letter-spacing: -0.74px; margin-bottom: 20px; text-indent: -40px; margin-left: 40px;}
+.introduction__main dl dd ul li::before{content: ""; width: 16px; height: 6px; background-color: #43d46d; display: inline-block; vertical-align: middle; margin-right: 24px;}
+
+.introduction__main--sub{padding-top: 82px;}
+.introduction__main--sub dl dl dt{font-size: 22px; font-weight: 600; letter-spacing: -0.7px; border-bottom: 2px solid #43d46d; padding-bottom: 10px; width: 160px; margin-right: 90px;}
+.introduction__main--sub dl dl dd{font-size: 18.5px; line-height: 1.62; letter-spacing: -0.74px;}
+
+
+.introduction__main--sub2{padding-top: 82px; border-bottom: none;}
+.introduction__main--sub2 dl dd ul li{font-weight: bold; margin-bottom: 38px;}
+
+
